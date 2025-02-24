@@ -41,7 +41,9 @@ git commit -m "[HOTFIX] #10 Ajuste crítico no login"
 
 
 🚀 Como Executar o Projeto
-[Instruções sobre como rodar a aplicação]
+execute o comando npm install para instalar as dependências.
+siga o caminho src/db e rode o comando npx prisma db push, depois npx prisma generate.
+depois de voltar para a raiz do projeto execute npm run dev para iniciar o server.
 
 📌 Contribuição
 Contribuições são bem-vindas! Certifique-se de seguir os padrões estabelecidos antes de abrir um Pull Request.
